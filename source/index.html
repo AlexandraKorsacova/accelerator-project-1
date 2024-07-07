@@ -6,16 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SUPERGYM</title>
     <link rel="stylesheet" href="sass/style.scss">
+    <link rel="icon" href="favicon.ico" sizes="32x32">
   </head>
 
   <body class="page-body">
-    <!-- пример использования спрайта -->
+    <!-- пример использования спрайта
     <img src="/__spritemap#sprite-logo-view" alt="Это спрайт">
     <svg>
       <use href="/__spritemap#sprite-user"></use>
-    </svg>
+    </svg> -->
     <!-- примеры требуемых атрибутов data-test="*" -->
-    <div data-test="hero">hero</div>
+    <main class="page-main">
+      <section class="hero">
+        <div data-test="hero" class="container">
+          <img src="/__spritemap#sprite-logo-view" alt="Логотип SUPERGYM">
+        </div>
+      </section>
+    </main>
     <div data-test="about">about</div>
     <div data-test="price">price</div>
     <div data-test="games">games</div>
